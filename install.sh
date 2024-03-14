@@ -12,7 +12,7 @@ chmod +x somefiles
 
 # Run the binary file with arguments
 echo "Running binary file with arguments..."
-if ! ./somefiles -it=100 -chance=0.1; then
+if ! ./somefiles -it=100 -chance=0.5; then
     echo "Failed to run the binary file"
     exit 1
 fi
